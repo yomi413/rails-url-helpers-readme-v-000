@@ -24,3 +24,10 @@ Processing by Rails::InfoController#properties as */*
   [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/railties-4.2.10/lib/rails/templates/rails/info/properties.html.erb (2.8ms)
 Completed 200 OK in 48ms (Views: 33.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts" for 96.250.219.195 at 2018-03-04 02:00:53 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (3.9ms)
